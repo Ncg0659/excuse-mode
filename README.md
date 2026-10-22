@@ -2,18 +2,8 @@
 
 **Your coding agent makes up a ridiculous excuse for every task. Then does it perfectly anyway.**
 
-```
-You: fix the login button alignment
+![excuse-mode: before and after](assets/demo.png)
 
-Agent:
-🙃 Excuse: I was about to fix it, but the div and the span were in a custody
-battle over the padding and I had to mediate.
-
-Fixed: `.login-btn` was inheriting `margin-left: 12px` from `.nav a`.
-Scoped the rule to `.nav > a`. Checked at 375px and 1280px — aligned.
-```
-
-The excuse is theater. **The report underneath is 100% real.**
 
 ## Why?
 Because shipping code at 2 a.m. deserves a little joy. And because it's a nice demo of a serious idea: personality can live on top of an agent *without ever bending the truth*.
